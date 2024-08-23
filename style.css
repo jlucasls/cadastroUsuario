@@ -1,9 +1,7 @@
-header{
-    text-align: center;
-    font-family: "New Amsterdam", sans-serif;
-    font-size: 50px;
-    color: blue;
+body{
+   background-color: #b2e2f2
 }
+
 
 .container{
     height: 70vh;
@@ -11,8 +9,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    background-color:  #a6a6a6 ;
+    
+    
 
 }
 
@@ -22,7 +20,12 @@ header{
     height: 60vh;
     width: 40vh;
     text-align: center;
-    background-color:#a6a6a6 ;
+    background-color:white;
+    margin-top: 20vh;
+    background-image: url(img/fundo-dos-desenhos-animados-da-paisagem-do-mar-79996224.webp);
+    background-size: 75vh;
+    background-repeat: no-repeat;
+    
 }
 
 .form h2{
@@ -38,14 +41,25 @@ input{
     border-radius: 10px;
 }
 
-.btnCadast{
-    margin-top: 20px;
+.iptCadast{
+    margin-top: 10px;
+}
+.iptLimpar{
+    margin-top: 10px;
+}
+.iptCadast :hover{
+    background-color: #b2e2f2 ;
+}
+.iptLimpar :hover{
+    margin-top: 10px;
+    background-color: #b2e2f2 ;
 }
 
-.btnLimpar{
-    margin-top: 20px;
+input:valid{
+    border: 2px solid white;
 }
 
-body{
-    background-color:  black ;
+input:invalid{
+    border: 2px solid white;
 }
+
